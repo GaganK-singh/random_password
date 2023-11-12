@@ -38,7 +38,7 @@ function App() {
 
   return (
   <>
-    <div className="bg-black w-full h-[100vh] my-0 py-8">
+    <div className="bg-black w-full h-[100vh] my-0 py-8 flex justify-center items-center">
       <div className="w-full max-w-md mx-auto shadow-lg shadow-slate-400 rounded-lg px-4 py-2 text-black bg-gray-100">
         <div className="text-center text-xl mb-2">Password Generator</div>
         <div className="flex overflow-hidden ">
@@ -58,7 +58,6 @@ function App() {
             <input type="checkbox" defaultChecked={hasChar} id="charInput" onChange={() => { setHasChar((prev) => !prev) }} />
             <label>Characters</label>
           </div>
-
         </div>
       </div>
     </div>
